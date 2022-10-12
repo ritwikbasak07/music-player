@@ -63,8 +63,8 @@ playBtn.addEventListener('click', () => {
 function loadSong(songs) {
     title.textContent = songs.displayName;
     artist.textContent = songs.artist;
-    music.src = `/music/${songs.name}.mp3`;
-    image.src = `/img/${songs.name}.jpg`
+    music.src = `music/${songs.name}.mp3`;
+    image.src = `img/${songs.name}.jpg`
 }
 
 // Current Song
